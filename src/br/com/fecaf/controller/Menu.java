@@ -187,7 +187,7 @@ public class Menu {
                         System.out.println("1- Cadrastar Triangulo         */");
                         System.out.println("2- Calcular Area               */");
                         System.out.println("3- Calcular Perimetro          */");
-                        System.out.println("4- Definir Quadrado            */");
+                        System.out.println("4- Definindo o Tipo de Triangulo*/");
                         System.out.println("5- Definir Triangulo Retangulo */");
                         System.out.println("6- Definir Triangulo 3,4,5     */");
                         System.out.println("7- Sair                        */");
@@ -228,7 +228,7 @@ public class Menu {
                                 break;
 
                             case 4:
-                                System.out.println("/** Definindo Quadrado **/");
+                                System.out.println("/** Definindo o Tipo de Triangulo **/");
                                 if(validaTriangulo) {
                                     triangulo.definirRetangulo();
 
